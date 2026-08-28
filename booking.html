@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Booking</title>
+<style>
+  body { font-family: Arial; background: #f2f2f2; }
+  .container { width: 350px; margin: 50px auto; background: #fff; padding: 20px; border: 1px solid #ccc; }
+  h2 { text-align: center; }
+  label { font-size: 13px; }
+  select, input, textarea { width: 100%; padding: 8px; margin-bottom: 12px; }
+  button { width: 100%; padding: 10px; background: #333; color: #fff; border: none; }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h2>Book a Service</h2>
+    <label>Service</label>
+    <select>
+      <option>Solar Panel Installation</option>
+      <option>Maintenance Check</option>
+      <option>Consultation</option>
+    </select>
+    <label>Date</label>
+    <input type="date">
+    <label>Time</label>
+    <select>
+      <option>9:00 AM</option>
+      <option>1:00 PM</option>
+      <option>4:00 PM</option>
+    </select>
+    <label>Notes</label>
+    <textarea rows="3" placeholder="Additional details..."></textarea>
+    <button>Confirm Booking</button>
+  </div>
+</body>
+</html>
