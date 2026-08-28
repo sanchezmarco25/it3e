@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Attendance</title>
+<style>
+  body { font-family: Arial; background: #f2f2f2; }
+  .container { width: 400px; margin: 50px auto; background: #fff; padding: 20px; border: 1px solid #ccc; }
+  h2 { text-align: center; }
+  .buttons { display: flex; gap: 10px; margin-bottom: 15px; }
+  button { flex: 1; padding: 10px; border: none; color: #fff; }
+  .timein { background: #4caf50; }
+  .timeout { background: #999; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { border: 1px solid #ccc; padding: 6px; text-align: left; }
+  th { background: #eee; }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h2>Attendance</h2>
+    <div class="buttons">
+      <button class="timein">Time In</button>
+      <button class="timeout">Time Out</button>
+    </div>
+    <table>
+      <tr><th>Date</th><th>Time In</th><th>Time Out</th><th>Status</th></tr>
+      <tr><td>Aug 13</td><td>8:02 AM</td><td>5:01 PM</td><td>Present</td></tr>
+      <tr><td>Aug 12</td><td>8:15 AM</td><td>5:00 PM</td><td>Late</td></tr>
+      <tr><td>Aug 11</td><td>-</td><td>-</td><td>Absent</td></tr>
+    </table>
+  </div>
+</body>
+</html>
